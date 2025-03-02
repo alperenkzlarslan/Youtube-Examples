@@ -1,0 +1,14 @@
+C:\Users\Alperen\source\repos\YoutubeExample\bin\Debug\net8.0\YoutubeExample.exe
+C:\Users\Alperen\source\repos\YoutubeExample\bin\Debug\net8.0\YoutubeExample.deps.json
+C:\Users\Alperen\source\repos\YoutubeExample\bin\Debug\net8.0\YoutubeExample.runtimeconfig.json
+C:\Users\Alperen\source\repos\YoutubeExample\bin\Debug\net8.0\YoutubeExample.dll
+C:\Users\Alperen\source\repos\YoutubeExample\bin\Debug\net8.0\YoutubeExample.pdb
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.AssemblyInfoInputs.cache
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.AssemblyInfo.cs
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.csproj.CoreCompileInputs.cache
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.dll
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\refint\YoutubeExample.dll
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.pdb
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\YoutubeExample.genruntimeconfig.cache
+C:\Users\Alperen\source\repos\YoutubeExample\obj\Debug\net8.0\ref\YoutubeExample.dll
