@@ -19,6 +19,15 @@ DoubleExample.Run();
 
 CharExample.Run();
 
+StringExample.Run();
+
+BooleanExample.Run();
+
+ObjectExample.Run();
+
+OperatorsExample.Run();
+
+
 
 
 Console.ReadLine();
