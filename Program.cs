@@ -1,27 +1,27 @@
 ﻿using System;
 using YoutubeExample.Examples;
 
-OutputExample.Run();
+//OutputExample.Run();
 
-DataTypeExample.Run();
+//DataTypeExample.Run();
 
-ByteExample.Run();
+//ByteExample.Run();
 
-ShortExample.Run();
+//ShortExample.Run();
 
-IntegerExample.Run();
+//IntegerExample.Run();
 
-LongExample.Run();
+//LongExample.Run();
 
-FloatExample.Run();
+//FloatExample.Run();
 
-DoubleExample.Run();
+//DoubleExample.Run();
 
-CharExample.Run();
+//CharExample.Run();
 
-StringExample.Run();
+//StringExample.Run();
 
-BooleanExample.Run();
+//BooleanExample.Run();
 
 ObjectExample.Run();
 

@@ -59,7 +59,55 @@ namespace YoutubeExample.Examples
 
             //Eşit değildir operatörü: != /İki değer birbirine eşit değilse true, eşitse false döner 
 
-            int 
+            bool control3 = number6 != number8;
+            bool control4 = number6 != number7;
+
+            //Büyüktür operatörü: > 
+            //Büyük eşit operatörü: >=
+
+            bool control2 = number6 > number7;
+            bool control5 = number6 >= number7;
+
+            //Küçüktür operatörü: <
+            //Küçük eşit operatörü: <=
+
+            int number9 = 36;
+
+            bool control6 = number9 < 35;
+            bool control7 = number9 <= 36;
+
+            //Mantıksal operatörler 
+            //&&: ve operatörü /Ve operatöründe true değerinin dönmesi için bütün koşullar true olmalı 
+
+            int num = 6;
+            int num1 = 10;
+            int num2 = 10;
+
+            bool doControl = num1 == num2 && num < num1;
+            bool doControl1 = num < num1 && num1 != num2;
+
+            //Veya operatörü: || /En az 1 tane koşul true ise true döner 
+
+            bool doControl2 = num > num1 || num1 >= num2;
+
+            //Değil operatörü: ! /Değeri tersine çevirir 
+
+            bool doControl3 = num1 == num2; //True döner 
+
+            //Ek operatörler
+            //+= : ekleyip atar, -= : çıkarıp atar, *= : çarpıp atar, /= bölüp atar 
+
+            int num3 = 20;
+            num3 += 5;
+
+            int num4 = 15;
+            num4 -= 5;
+
+            int num5 = 10;
+            num5 *= 5;
+
+            int num6 = 6;
+            num6 /= 2;
 
             Console.WriteLine("Toplama operatörü örneği: " + sumResult);
             Console.WriteLine("Toplama operatörü örneği: " + fullName);
@@ -72,6 +120,20 @@ namespace YoutubeExample.Examples
             Console.WriteLine("Atama operatörü örneği: " + age);
             Console.WriteLine("Eşittir operatörü örneği: " + control);
             Console.WriteLine("Eşittir operatörü örneği: " + control1);
+            Console.WriteLine("Eşit değildir operatörü örneği: " + control3);
+            Console.WriteLine("Eşit değildir operatörü örneği: " + control4);
+            Console.WriteLine("Büyüktür operatörü örneği: " + control2);
+            Console.WriteLine("Büyük eşit operatörü örneği: " + control5);
+            Console.WriteLine("Küçüktür operatörü örneği: " + control6);
+            Console.WriteLine("Küçük eşit operatörü örneği: " + control7);
+            Console.WriteLine("Ve operatörü örneği: " + doControl);
+            Console.WriteLine("Ve operatörü örneği: " + doControl1);
+            Console.WriteLine("Veya operatörü örneği: " + doControl2);
+            Console.WriteLine("Değil operatörü örneği: " + !doControl3);
+            Console.WriteLine($"+= opertatörü: {num3} ,-= operatörü: {num4}, *= operatörü: {num5}, /= operatörü: {num6}" );
+
+            
+
         }
     }
 }
