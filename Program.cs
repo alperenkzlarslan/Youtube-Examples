@@ -23,10 +23,13 @@ using YoutubeExample.Examples;
 
 //BooleanExample.Run();
 
-ObjectExample.Run();
+//ObjectExample.Run();
 
-OperatorsExample.Run();
+//OperatorsExample.Run();
 
+//InputExample.Run();
+
+TypeConvertExample.Run();
 
 
 
