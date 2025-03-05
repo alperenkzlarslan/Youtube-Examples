@@ -29,8 +29,12 @@ using YoutubeExample.Examples;
 
 //InputExample.Run();
 
-TypeConvertExample.Run();
+//TypeConvertExample.Run();
 
+//IfElseExample.Run();
 
+//ElseIfExample.Run();
+
+MiniAtmExample.Run();
 
 Console.ReadLine();
