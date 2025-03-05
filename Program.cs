@@ -35,6 +35,8 @@ using YoutubeExample.Examples;
 
 //ElseIfExample.Run();
 
-MiniAtmExample.Run();
+//MiniAtmExample.Run();
+
+BodyIndexExample.Run();
 
 Console.ReadLine();
