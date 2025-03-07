@@ -37,6 +37,8 @@ using YoutubeExample.Examples;
 
 //MiniAtmExample.Run();
 
-BodyIndexExample.Run();
+//BodyIndexExample.Run();
+
+SwitchCaseExample.Run();
 
 Console.ReadLine();

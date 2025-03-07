@@ -21,13 +21,13 @@ namespace YoutubeExample.Examples
 
             Console.WriteLine("Lütfen boyunuzu giriniz: ");
 
-            int height = Convert.ToInt32(Console.ReadLine());
+            double height = Convert.ToDouble(Console.ReadLine());
 
-            int bodyIndex = weight / (height * height);
+            double bodyIndex = weight / (height * height);
 
             if (bodyIndex > 25)
             {
-                Console.WriteLine("Obez, acielen kilo vermeniz gerekiyor !!!");
+                Console.WriteLine("Fazla kilolusunuz, acielen kilo vermeniz gerekiyor !!!");
             }
             else if (bodyIndex > 18 && bodyIndex <= 25)
             {
