@@ -39,6 +39,8 @@ using YoutubeExample.Examples;
 
 //BodyIndexExample.Run();
 
-SwitchCaseExample.Run();
+//SwitchCaseExample.Run();
+
+ForLoopExample.Run();
 
 Console.ReadLine();
