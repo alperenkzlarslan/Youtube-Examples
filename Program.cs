@@ -41,6 +41,12 @@ using YoutubeExample.Examples;
 
 //SwitchCaseExample.Run();
 
-ForLoopExample.Run();
+//ForLoopExample.Run();
+
+//WhileLoopExample.Run();
+
+//DoWhileLoopExample.Run();
+
+
 
 Console.ReadLine();

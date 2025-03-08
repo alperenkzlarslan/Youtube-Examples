@@ -17,7 +17,7 @@ namespace YoutubeExample.Examples
                 Console.WriteLine(i);
             }
 
-            //0 den 10 a kadar olan sayılarda çift olanları yazdıralım 
+            //0 dan 10 a kadar olan sayılarda çift olanları yazdıralım 
 
             for (int a = 0; a <= 10; a += 2)
             {
