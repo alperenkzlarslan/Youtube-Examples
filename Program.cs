@@ -57,6 +57,21 @@ using YoutubeExample.Examples;
 
 //ArrayExample.Run();
 
-ForEachLoppExample.Run();
+//ForEachLoppExample.Run();
+
+//Example.Run();
+
+//MethodExample.SayHi();
+//MethodExample.WriteYourName();
+
+//MethodExample.Sum(70, 45);
+//MethodExample.Cross(10, 7, 23);
+//MethodExample.WriteFullName("Alperen", "Kızılarslan");
+
+//MethodExample.Run();
+
+//MethodExample2.Run();
+
+MethodExample3.Run();
 
 Console.ReadLine();
