@@ -92,13 +92,29 @@ using YoutubeExample.Examples;
 #endregion
 
 #region Car sınıfı örneği 2 
-Car car2 = new Car(4, "Opel", "Kırmızı");
+//Car car2 = new Car(4, "Opel", "Kırmızı");
 
-Console.WriteLine("Arabanın kapı sayısı: " + car2.doorsNumber);
-Console.WriteLine("Arabanın rengi: " + car2.carColor);
-Console.WriteLine("Arabanın modeli: " + car2.carModel);
+//Console.WriteLine("Arabanın kapı sayısı: " + car2.doorsNumber);
+//Console.WriteLine("Arabanın rengi: " + car2.carColor);
+//Console.WriteLine("Arabanın modeli: " + car2.carModel);
 #endregion
 
+#region Erişim belirleyiciler 
+//CustomerExample maleCustomer = new CustomerExample();
+
+//maleCustomer.name = "Alperen";
+//maleCustomer.surname = "Kızılarslan";
+//maleCustomer.salary = 36000;
+//maleCustomer.gender = "Erkek";
+
+//maleCustomer.CustomerInfo();
+#endregion
+
+#region Öğrenci örneği 
+Student Student1 = new Student(23, "Alperen", "Kızılarlan", 50, 65, 90, "İstanbul Üniversitsi");
+
+Student1.Run();
+#endregion 
 
 
 Console.ReadLine();
