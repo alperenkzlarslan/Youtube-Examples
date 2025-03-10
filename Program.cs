@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Xml.Linq;
 using YoutubeExample.Examples;
 
 //OutputExample.Run();
@@ -111,10 +112,66 @@ using YoutubeExample.Examples;
 #endregion
 
 #region Öğrenci örneği 
-Student Student1 = new Student(23, "Alperen", "Kızılarlan", 50, 65, 90, "İstanbul Üniversitsi");
+//Student Student1 = new Student(23, "Alperen", "Kızılarlan", 50, 65, 90, "İstanbul Üniversitsi");
 
-Student1.Run();
+//Student1.Run();
 #endregion 
+
+#region Encapsulation örneği 
+//EncapsulationExample personal = new EncapsulationExample();
+
+//personal.SetName("Alperen");
+
+//string getName = personal.GetName();
+
+
+//if (getName == "Alperen")
+//{
+//    Console.WriteLine("İsim doğru");
+//}
+//else
+//{
+//    Console.WriteLine("İsim yanlış");
+//}
+#endregion
+
+#region Property 
+//Manager manager1 = new Manager();
+
+//manager1.WEIGHT = 66; //Değer ataması yapıldığı için set blokları çalışır 
+
+//Console.WriteLine(manager1.WEIGHT);
+#endregion
+
+#region örnek
+
+//Personel p1 = new Personel();
+
+//p1.IDNO = "12345678910";
+
+//Console.WriteLine("Tc kimlik numaranız: " + p1.IDNO + "******");
+
+#endregion
+
+#region Static Examples
+
+//StaticExample.WriteFullName();
+
+//StaticExample.Sum(10, 23);
+
+StaticExample worker = new StaticExample();
+
+worker.name = "Alperen";
+worker.surname = "Kızılarslan";
+worker.personalId = 23;
+StaticExample.salary = 72000;
+
+Console.WriteLine("Çalışan id: " + worker.personalId);
+Console.WriteLine("Çalışan isim: " + worker.name);
+Console.WriteLine("çalışan soyisim: " + worker.surname);
+Console.WriteLine("Çalışan maaş: " + StaticExample.salary);
+
+#endregion  
 
 
 Console.ReadLine();

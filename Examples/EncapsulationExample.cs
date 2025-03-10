@@ -8,6 +8,20 @@ namespace YoutubeExample.Examples
 {
     public class EncapsulationExample
     {
+        //geter seter methodlar 
+        //propertyler 
 
+        public string name;
+
+        public void SetName(string _name)
+        {
+            name = _name;
+        }
+        
+        public string GetName()
+        {
+            return name;
+        }
+        
     }
 }
