@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Xml.Linq;
 using YoutubeExample.Examples;
 
@@ -190,6 +191,51 @@ using YoutubeExample.Examples;
 
 #endregion
 
+#region ArrayList Example 
 
+//ArrayList collection = new ArrayList();
+
+//collection.Add("Alperen");
+//collection.Add("Merve");
+//collection.Add("Suzan");
+//collection.Add("Çiğdem");
+
+////collection.Remove("Suzan"); //Elamanı kaldırır
+////collection.Clear(); //Dizinin elemanlarını siler
+////collection.Reverse(); //Diziyi tersten sıralıyor 
+
+//collection.Sort();
+//collection.Insert(2, "Özkan");
+
+//int count = collection.Count;
+
+//bool control = collection.Contains("Alperen");
+//int index = collection.IndexOf("Alperen");
+
+
+//foreach (var a in collection)
+//{
+//    Console.WriteLine(a);
+//}
+
+//Console.WriteLine("Dizinin eleman sayısı: " + count);
+//Console.WriteLine("Alperen var mı: " + control);
+//Console.WriteLine("Alperen' in index numarası: " + index);
+
+#endregion
+
+#region inheritance example
+//Bir sınıf yalnızca bir sınıfı miras alabilir 
+
+Cat tekir = new Cat();
+
+tekir.animalName = "Lalegül";
+tekir.animalGender = "Dişi";
+tekir.animalColor = "Beyaz";
+
+tekir.CatSoumd();
+tekir.AnimalInfo();
+
+#endregion
 
 Console.ReadLine();
