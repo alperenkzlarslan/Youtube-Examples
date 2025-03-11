@@ -159,19 +159,37 @@ using YoutubeExample.Examples;
 
 //StaticExample.Sum(10, 23);
 
-StaticExample worker = new StaticExample();
+//StaticExample worker = new StaticExample();
 
-worker.name = "Alperen";
-worker.surname = "Kızılarslan";
-worker.personalId = 23;
-StaticExample.salary = 72000;
+//worker.name = "Alperen";
+//worker.surname = "Kızılarslan";
+//worker.personalId = 23;
+//StaticExample.salary = 72000;
 
-Console.WriteLine("Çalışan id: " + worker.personalId);
-Console.WriteLine("Çalışan isim: " + worker.name);
-Console.WriteLine("çalışan soyisim: " + worker.surname);
-Console.WriteLine("Çalışan maaş: " + StaticExample.salary);
+//Console.WriteLine("Çalışan id: " + worker.personalId);
+//Console.WriteLine("Çalışan isim: " + worker.name);
+//Console.WriteLine("çalışan soyisim: " + worker.surname);
+//Console.WriteLine("Çalışan maaş: " + StaticExample.salary);
 
 #endregion  
+
+#region statiic method 
+
+//User user1 = new User(1, "Alperen", "Kızılarlsan", 2500);
+
+//user1.UserInfo();
+//user1.AddMoney(500);
+
+#endregion
+
+#region static class
+
+//static classlardan obje oluşturulamaz 
+//static classlardan kalıtım yapılamaz 
+//static classların içindekiler de statci olmalı 
+
+#endregion
+
 
 
 Console.ReadLine();

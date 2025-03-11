@@ -25,6 +25,8 @@ namespace YoutubeExample.Examples
 
         public static int salary;
 
-        
     }
+
 }
+
+
